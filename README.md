@@ -5,7 +5,7 @@
 
 In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OS!
 
-This is an easy example on how to deploy an app as fast as possible. So the easiest method will always be chosen. For example you could `sudo apt install qt6-base-dev` and skip the whole installation proccess
+This is an easy example on how to deploy an app as fast as possible. So the easiest method will always be chosen. For example you could `sudo apt install qt6-base-dev` and then link everything, but this would make it more complicated.
 
 I will provide the specific instructions for:
 - Windows 10
@@ -33,7 +33,7 @@ sudo apt install build-essential libgl-dev libxcb-xinerama0 libxcb-cursor0
 Then right click on the .run file and Allow executing file as a program:
 
 <p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtUbuntuExecute.PNG" width="30%">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtUbuntuExecute.PNG" width="40%">
 </p>
 
 Close the window and double click the .run file to start the installation
@@ -48,7 +48,7 @@ Bla bla algo de sus paquetes dnf
 The first step is giving your Qt credentials. If you don't have one, simply [create a new account in their webpage](https://login.qt.io/register). It's free!
 
 <p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall1.PNG" width="30%">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall1.PNG" width="40%">
 </p>
 
 Accept [Qt's licensing terms](https://www.qt.io/licensing).
