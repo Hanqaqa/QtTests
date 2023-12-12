@@ -19,11 +19,11 @@ SEGUIR HACIENDO E INSTALAR EN MAQUINA VIRTUAL
 First we have to install some required libraries
 
 ```
-sudo apt install libxcb.xinerama0 libxcb-cursor0
+sudo apt install libxcb-xinerama0 libxcb-cursor0
 sudo apt install build-essential
 sudo apt install libgl-dev
 ```
 
-sudo apt install build-essential libxcb.xinerama0 libxcb-cursor0 libgl-dev
+sudo apt install build-essential libxcb-xinerama0 libxcb-cursor0 libgl-dev
 
 
