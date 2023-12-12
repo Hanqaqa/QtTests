@@ -55,3 +55,16 @@ Accept [Qt's licensing terms](https://www.qt.io/licensing).
 
 Tl;dr: if you use the Open Source license, using Qt is free as long as you also Open Source your project.
 
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall2.PNG" width="40%">
+</p>
+
+Click Next on the Welcome to open source setup screen.
+
+Allow or disable sending usage statistics to Qt.
+
+Choose the Custom installation
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall3.PNG" width="40%">
+</p>
