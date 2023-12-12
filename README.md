@@ -43,7 +43,9 @@ Close the window and double click the .run file to start the installation
 Bla bla algo de sus paquetes yum
 
 
-## 2. Installation in different OS:
+## 2. Installation:
+
+The procedure is the same in all the OS.
 
 The first step is giving your Qt credentials. If you don't have one, simply [create a new account in their webpage](https://login.qt.io/register). It's free!
 
