@@ -18,11 +18,11 @@ Whenever they are necessary. If the instructions are platform independent, the i
 
 All of them begin by downloading the installer from their [Qt Open Source Development page](https://www.qt.io/download-open-source) and clicking in [Download the Qt Online installer](https://www.qt.io/download-qt-installer-oss) and choosing your system.
 
-#### Windows 10
+### Windows 10
 
 The simplest install. Double click the downloaded .exe and the installation will start.
 
-#### Ubuntu 22.04
+### Ubuntu 22.04
 
 First we have to install some required libraries:
 
@@ -38,9 +38,9 @@ Then right click on the .run file and Allow executing file as a program:
 
 Close the window and double click the .run file to start the installation
 
-#### Red Hat Enterprise Linux 9.3
+### Red Hat Enterprise Linux 9.3
 
-Bla bla algo de sus paquetes dnf
+Bla bla algo de sus paquetes yum
 
 
 ## 2. Installation in different OS:
