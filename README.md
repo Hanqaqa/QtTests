@@ -3,7 +3,7 @@
 > [!NOTE]  
 > This procedure has been tested as of January 2024 with Qt 6.6.1. Things might change in the future
 
-In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OS!
+In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OSs!
 
 This is an easy example on how to deploy an app as fast as possible. So the easiest method will always be chosen. For example you could `sudo apt install qt6-base-dev` and then link everything, but this would make it more complicated.
 
@@ -45,7 +45,7 @@ Bla bla algo de sus paquetes yum
 
 ## 2. Installation:
 
-The procedure is the same in all the OS.
+The procedure is the same in all the OSs.
 
 The first step is giving your Qt credentials. If you don't have one, simply [create a new account in their webpage](https://login.qt.io/register). It's free!
 
