@@ -88,13 +88,13 @@ If you want to install another version of the libraries or plan to do Android or
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
-Accept the Qt license and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 1.4GB.
+Accept the Qt license and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 2GB.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
 </p>
 
-Wait for the installation
+Wait for the installation and click Finish
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall7.PNG" width="40%">
