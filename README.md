@@ -5,7 +5,7 @@
 
 In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OSs!
 
-This is an easy example on how to deploy an app as fast as possible. So the easiest method will always be chosen. For example you could `sudo apt install qt6-base-dev` and then link everything, but this would make it more complicated.
+This is an easy example on how to deploy an app as fast as possible. So the easiest and cleanest method will always be chosen.
 
 I will provide the specific instructions for:
 - Windows 10
@@ -37,7 +37,7 @@ sudo apt install libxcb-xinerama0 libxcb-cursor0
 ```
 
 
-Then right click on the .run file and Allow executing file as a program:
+Then right click on the downloaded .run file and Allow executing file as a program:
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtUbuntuExecute.PNG" width="40%">
@@ -70,10 +70,32 @@ Tl;dr: if you use the Open Source license, using Qt is free as long as you also 
 
 Click Next on the Welcome to open source setup screen.
 
-Allow or disable sending usage statistics to Qt.
-
-Choose the Custom installation
-
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall3.PNG" width="40%">
+</p>
+
+Allow or disable sending usage statistics to Qt.
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall4.PNG" width="40%">
+</p>
+
+Choose Qt 6.6 for desktop development. This will install the latest version of Qt Design Studio, QtCreator and the latest release Qt libraries (6.6.1 as of January 2024).
+
+If you want to install another version of the libraries or plan to do Android or Automotive choose Custom installation
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
+</p>
+
+Accept the Qt license and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 1.4GB.
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
+</p>
+
+Wait for the installation
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall7.PNG" width="40%">
 </p>
