@@ -24,11 +24,18 @@ The simplest install. Double click the downloaded .exe and the installation will
 
 ### Ubuntu 22.04
 
-First we have to install some required libraries:
+First we have to install some required libraries, [the official qt6 docs tells us to install](https://doc.qt.io/qt-6/linux.html):
 
 ```
-sudo apt install build-essential libgl-dev libxcb-xinerama0 libxcb-cursor0 
+sudo apt install build-essential libgl1-mesa-dev
 ```
+
+I have found that you need to install these libraries too:
+
+```
+sudo apt install libxcb-xinerama0 libxcb-cursor0 
+```
+
 
 Then right click on the .run file and Allow executing file as a program:
 
