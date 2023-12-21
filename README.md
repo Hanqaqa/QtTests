@@ -80,22 +80,38 @@ Allow or disable sending usage statistics to Qt.
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall4.PNG" width="40%">
 </p>
 
-Choose Qt 6.6 for desktop development. This will install the latest version of Qt Design Studio, QtCreator and the latest release Qt libraries (6.6.1 as of January 2024).
+Choose Qt 6.6 for desktop development and Qt Design Studio. This will install the latest version of Qt Design Studio, QtCreator and the latest release Qt libraries (6.6.1 as of January 2024).
 
-If you want to install another version of the libraries or plan to do Android or Automotive choose Custom installation
+If you want to install another version of the libraries or plan to do Android or Automotive choose Custom installation.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
-Accept the Qt license and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 2GB.
+Accept all the Qt licences and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 3.2GB.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
 </p>
 
-Wait for the installation and click Finish
+Wait for the installation.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall7.PNG" width="40%">
 </p>
+
+Once the installation is finished you can automatically launch Qt
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall8.PNG" width="40%">
+</p>
+
+Switch the Qt Creator to dark mode via Edit->Preferences
+
+Then in the new window click on Environment and change theme to dark. Qt Creator will restart once you apply the flat dark theme
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall9.PNG" width="40%">
+</p>
+
+## 2. First Project:
