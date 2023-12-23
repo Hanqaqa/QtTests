@@ -36,6 +36,10 @@ I have found that you need to install these libraries too:
 sudo apt install libxcb-xinerama0 libxcb-cursor0 
 ```
 
+Y hacer??????
+```
+sudo apt install libxcb*
+```
 
 Then right click on the downloaded .run file and Allow executing file as a program:
 
@@ -64,6 +68,12 @@ I also had to install these dependencies
 
 ```
 sudo yum install xcb-util-wm xcb-util-image xcb-util-keysyms xcb-util-renderutil
+```
+
+Y este como va?
+
+```
+sudo yum install xcb*
 ```
 
 Then right click on the downloaded .run file and Allow executing file as a program:
