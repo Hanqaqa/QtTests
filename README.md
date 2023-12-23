@@ -30,13 +30,8 @@ First we have to install some required libraries, [the official qt6 docs tells u
 sudo apt install build-essential libgl1-mesa-dev
 ```
 
-I have found that you need to install these libraries too:
+I have found that you need to install the complete Xcb library:
 
-```
-sudo apt install libxcb-xinerama0 libxcb-cursor0 
-```
-
-Y hacer??????
 ```
 sudo apt install libxcb*
 ```
