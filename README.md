@@ -3,7 +3,7 @@
 > [!NOTE]  
 > This procedure has been tested as of January 2024 with Qt 6.6.1. Things might change in the future
 
-In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OSs!
+In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OS!
 
 This is an easy example on how to deploy an app as fast as possible. So the easiest and cleanest method will always be chosen.
 
@@ -16,7 +16,7 @@ Whenever they are necessary. If the instructions are platform independent, the i
 
 ## 1. Pre installation in different OS:
 
-All of them begin by downloading the installer from their [Qt Open Source Development page](https://www.qt.io/download-open-source) and clicking in [Download the Qt Online installer](https://www.qt.io/download-qt-installer-oss) and choosing your system.
+All of installation in different OS begin by downloading the installer from their [Qt Open Source Development page](https://www.qt.io/download-open-source) and clicking in [Download the Qt Online installer](https://www.qt.io/download-qt-installer-oss) and choosing your system.
 
 ### Windows 10
 
@@ -47,8 +47,12 @@ Close the window and double click the .run file to start the installation
 
 ### Red Hat Enterprise Linux 9.3
 
-Bla bla algo de sus paquetes yum
+Same as in Ubuntu, [the official qt6 docs tells us to install](https://doc.qt.io/qt-6/linux.html):
 
+```
+sudo yum groupinstall "C Development Tools and Libraries"
+sudo yum install mesa-libGL-devel
+```
 
 ## 2. Installation:
 
@@ -121,3 +125,14 @@ Then in the new window click on Environment and change theme to dark. Qt Creator
 </p>
 
 ## 2. First Project:
+
+TODO
+
+## 3. Releasing your application to other PCs
+
+Once you have finished developing your application. It is time to "deploy the application". Which means, compiling it and putting into a folder with all the necessary files so other people with different PCs and OSs can run it without installing Qt Creator.
+
+Windows runs `.exe` files, Linux runs `rpm` files.  The easiest way to deploy Qt apps is to deploy them for the same system you are developing. If you want to compile for a different OS, Linux to Windows for example, you will have to search for information about cross compiling and deploying applications from Linux to Windows. This is a hard proccess and will not be covered here.
+
+### Windows 10
+
