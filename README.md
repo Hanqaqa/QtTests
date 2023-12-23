@@ -80,7 +80,7 @@ Allow or disable sending usage statistics to Qt.
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall4.PNG" width="40%">
 </p>
 
-Choose Custom Installation. (Although we will only be using Qt 6.6 for Desktop development, it is good to see what we are installing).
+Choose Custom Installation. (If you are only interested in the very basics of Qt (No serial port, Android, charts, pdf...), then only install Qt 6.6 for Desktop development, it is only a ~3GB install).
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
@@ -88,13 +88,13 @@ Choose Custom Installation. (Although we will only be using Qt 6.6 for Desktop d
 
 Choose to install Qt Design Studio (this allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the framework) and Qt Creator (Qt's IDE).
 
-This installation method lots of packages like an Android development kit, Serial Port, Webview compatibilities... that we probably won't use. But it doesn't take too much space (~200Mb) and is a fast way to install it.
+This installation method installs all of the packages available in Qt 6.6.1.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5a.PNG" width="40%">
 </p>
 
-Accept all the Qt licences and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 3.2GB.
+Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
