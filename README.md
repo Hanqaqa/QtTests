@@ -80,12 +80,18 @@ Allow or disable sending usage statistics to Qt.
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall4.PNG" width="40%">
 </p>
 
-Choose Qt 6.6 for desktop development and Qt Design Studio. This will install the latest version of Qt Design Studio, QtCreator and the latest release Qt libraries (6.6.1 as of January 2024).
-
-If you want to install another version of the libraries or plan to do Android or Automotive choose Custom installation.
+Choose Custom Installation. (Although we will only be using Qt 6.6 for Desktop development, it is good to see what we are installing).
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
+</p>
+
+Choose to install Qt Design Studio (this allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the framework) and Qt Creator (Qt's IDE).
+
+This installation method lots of packages like an Android development kit, Serial Port, Webview compatibilities... that we probably won't use. But it doesn't take too much space (~200Mb) and is a fast way to install it.
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5a.PNG" width="40%">
 </p>
 
 Accept all the Qt licences and click Install. If you only chose Qt 6.6 for desktop development the download will be approximately of 3.2GB.
