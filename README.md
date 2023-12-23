@@ -60,10 +60,10 @@ C development tools me ha ido mal. me ha funcionado bien esto:
 sudo yum groupinstall "Development Tools"
 ```
 
-Tambien he tenido que instalar esto
+I also had to install these dependencies
 
 ```
-sudo yum install xcb-util-wm
+sudo yum install xcb-util-wm xcb-util-image xcb-util-keysyms xcb-util-renderutil
 ```
 
 Then right click on the downloaded .run file and Allow executing file as a program:
