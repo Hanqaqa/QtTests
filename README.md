@@ -54,6 +54,26 @@ sudo yum groupinstall "C Development Tools and Libraries"
 sudo yum install mesa-libGL-devel
 ```
 
+C development tools me ha ido mal. me ha funcionado bien esto:
+
+```
+sudo yum groupinstall "Development Tools"
+```
+
+Tambien he tenido que instalar esto
+
+```
+sudo yum install xcb-util-wm
+```
+
+Then right click on the downloaded .run file and Allow executing file as a program:
+
+<p align="center">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtRedHatExecute.PNG" width="40%">
+</p>
+
+Close the window and double click the .run file to start the installation
+
 ## 2. Installation:
 
 The procedure is the same in all the OSs.
