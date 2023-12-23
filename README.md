@@ -57,7 +57,7 @@ sudo yum install mesa-libGL-devel
 C development tools me ha ido mal. me ha funcionado bien esto:
 
 ```
-sudo yum groupinstall "Development Tools"
+sudo yum groupinstall "Development Tools" <-- Pero me faltan Libraries y me olvido de C?>
 ```
 
 I also had to install these dependencies
