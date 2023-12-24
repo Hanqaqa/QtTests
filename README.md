@@ -115,12 +115,24 @@ Choose Custom Installation for the complete Qt experience. Choose Qt 6.6 for Des
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
-If you chose Custom Installation, install Qt Design Studio (this program allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the complete framework), Qt Creator (Qt's IDE) and CMake, Ninja and MinGW(Windows).
+If you chose Custom Installation, the different options given to you are:
+
+- Qt Design Studio: a program that allows you to create QML GUIs by drag and droping. Nice to have.
+- Qt 6.6.1: The complete Qt libraries framework. The necessary ones for creating a very basic application are:
+    - Desktop gcc 64-bit: Linux only. The C/C++ compiler. Obligatory if you want to compile your applications unless you already have one installed.
+    - MinGW: Windows only. The C/C++ compiler. Obligatory unless you already have it installed and plan on using that one. 
+    - Sources: the basic Qt libraries. Obligatory if you want to develop a very basic Qt application.
+    - Rest of them: if you want to develop an application with a specific library, you can choose them here. Optional.
+- Developer and Designer Tools:
+    - Qt Creator: The IDE. Obligatory unless you know what you are doing and plan on using a different IDE.
+    - Debugging Tools for Windows: Windows only. Obligatory.
+    - CMake: Obligatory.
+    - Ninja: Obligatory.
 
 This installation method will isntall all of the packages available in Qt 6.6.1.
 
 <p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5a.PNG" width="40%">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG" width="40%">
 </p>
 
 Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
