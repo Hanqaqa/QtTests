@@ -53,19 +53,13 @@ sudo yum groupinstall "C Development Tools and Libraries"
 sudo yum install mesa-libGL-devel
 ```
 
-C development tools me ha ido mal. me ha funcionado bien esto:
+The yum package manager tells me that "C development Tools and Librariesis not available". So I tried this and I got it to work:
 
 ```
 sudo yum groupinstall "Development Tools"
 ```
 
-I also had to install these dependencies
-
-```
-sudo yum install xcb-util-wm xcb-util-image xcb-util-keysyms xcb-util-renderutil
-```
-
-Y este como va?
+I also had to install these dependencies:
 
 ```
 sudo yum install xcb*
@@ -137,7 +131,7 @@ The minimum installation should look like this:
 |In Windows CMake and Ninja are not shown on the image but are selected| --- |
 
 
-Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
+Accept all the Qt licences and click Install. If you chose the Custom installation as I did in the pictures, the download will be around 8GB. If you select the whole Qt 6.6.1 package, the download will be around 16GB on Linux and 40GB on Windows. 
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
