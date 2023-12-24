@@ -115,7 +115,7 @@ Choose Custom Installation. (If you are only interested in the very basics of Qt
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
-Choose to install Qt Design Studio (this allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the framework) and Qt Creator (Qt's IDE).
+On thee other hand for a more complete Qt experience, install Qt Design Studio (this program allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the framework), Qt Creator (Qt's IDE) and CMake (Linux) or MinGW(Windows).
 
 This installation method installs all of the packages available in Qt 6.6.1.
 
@@ -123,7 +123,7 @@ This installation method installs all of the packages available in Qt 6.6.1.
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5a.PNG" width="40%">
 </p>
 
-Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB.
+Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall6.PNG" width="40%">
