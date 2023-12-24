@@ -53,7 +53,7 @@ sudo yum groupinstall "C Development Tools and Libraries"
 sudo yum install mesa-libGL-devel
 ```
 
-The yum package manager tells me that "C development Tools and Librariesis not available". So instead I used the "Development Tools" package and I got it to work:
+The yum package man ager tells me that "C development Tools and Librariesis not available". So instead I used the "Development Tools" package and I got it to work:
 
 ```
 sudo dnf groupinstall "Development Tools"
