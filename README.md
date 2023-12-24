@@ -169,3 +169,8 @@ Windows runs `.exe` files, Linux runs `rpm` files.  The easiest way to deploy Qt
 
 ### Windows 10
 
+[Qt's official documentation](https://doc.qt.io/qt-6/windows-deployment.html) indicates us how to do it
+
+### Linux
+
+[Qt's official documentation](https://doc.qt.io/qt-6/linux-deployment.html) indicates us how to do it
