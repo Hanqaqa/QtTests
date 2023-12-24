@@ -91,7 +91,7 @@ The first step is giving your Qt credentials. If you don't have one, simply [cre
 
 Accept [Qt's licensing terms](https://www.qt.io/licensing).
 
-Tl;dr: if you use the Open Source license, using Qt is free as long as you also Open Source your project.
+Tl;dr: if you use the Open Source license, using Qt is free, as long as you also Open Source your project.
 
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall2.PNG" width="40%">
@@ -115,11 +115,11 @@ Choose Custom Installation for the complete Qt experience. Choose Qt 6.6 for Des
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
-If you chose Custom Installation, the different options given to you are:
+If you chose Custom Installation, these options given to you are:
 
 - Qt Design Studio: a program that allows you to create QML GUIs by drag and droping. Nice to have.
 - Qt 6.6.1: The complete Qt libraries framework. The necessary ones for creating a very basic application are:
-    - Desktop gcc 64-bit: Linux only. The C/C++ compiler. Obligatory if you want to compile your applications unless you already have one installed.
+    - Desktop gcc 64-bit: Linux only. The C/C++ compiler. Obligatory if you want to compile your applications unless you already have one installed and plan on using that one.
     - MinGW: Windows only. The C/C++ compiler. Obligatory unless you already have it installed and plan on using that one. 
     - Sources: the basic Qt libraries. Obligatory if you want to develop a very basic Qt application.
     - Rest of them: if you want to develop an application with a specific library, you can choose them here. Optional.
@@ -129,11 +129,11 @@ If you chose Custom Installation, the different options given to you are:
     - CMake: Obligatory.
     - Ninja: Obligatory.
 
-This installation method will isntall all of the packages available in Qt 6.6.1.
+The minimum installation should look like this: 
 
-<p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG" width="40%">
-</p>
+|---|---|
+|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG">|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Linux.PNG" width="40%">|
+|Installation on Windows|Installation on Linux|
 
 Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
 
