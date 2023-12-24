@@ -53,16 +53,17 @@ sudo yum groupinstall "C Development Tools and Libraries"
 sudo yum install mesa-libGL-devel
 ```
 
-The yum package manager tells me that "C development Tools and Librariesis not available". So I tried this and I got it to work:
+The yum package manager tells me that "C development Tools and Librariesis not available". So instead I used the "Development Tools" package and I got it to work:
 
 ```
-sudo yum groupinstall "Development Tools"
+sudo dnf groupinstall "Development Tools"
+sudo dnf install mesa-libGL-devel
 ```
 
 I also had to install these dependencies:
 
 ```
-sudo yum install xcb*
+sudo dnf install xcb*
 ```
 
 Then right click on the downloaded .run file and Allow executing file as a program:
