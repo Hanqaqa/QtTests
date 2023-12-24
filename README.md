@@ -111,7 +111,7 @@ Allow or disable sending usage statistics to Qt.
 
 Choose Custom Installation for the complete Qt experience. Choose Qt 6.6 for Desktop development If you are only interested in the very basics of Qt (No serial port, charts, pdf genration, multimeda...)
 
-<p align="left">
+<p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
