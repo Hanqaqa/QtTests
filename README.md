@@ -131,9 +131,10 @@ If you chose Custom Installation, these options given to you are:
 
 The minimum installation should look like this: 
 
+| Windows Minimum Installation | Linux Minimum Installation |
 |---|---|
-|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG">|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Linux.PNG" width="40%">|
-|Installation on Windows|Installation on Linux|
+|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG">|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Linux.PNG">|
+
 
 Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
 
