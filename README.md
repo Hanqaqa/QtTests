@@ -134,6 +134,7 @@ The minimum installation should look like this:
 | Windows Minimum Installation | Linux Minimum Installation |
 |---|---|
 |<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Windows.PNG">|<img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5Linux.PNG">|
+|In Windows CMake and Ninja are not shown on the image but are selected| --- |
 
 
 Accept all the Qt licences and click Install. If you chose the full Custom installation like I did, the installation will be ~16GB(linux) ~40GB Windows. If instead you only chose Qt 6.6 for desktop development the download will be approximately of ~3GB(linux) or 4.5GB(Windows).
