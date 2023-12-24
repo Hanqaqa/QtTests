@@ -112,10 +112,7 @@ Allow or disable sending usage statistics to Qt.
 Choose Custom Installation for the complete Qt experience. Choose Qt 6.6 for Desktop development If you are only interested in the very basics of Qt (No serial port, charts, pdf genration, multimeda...)
 
 <p align="left">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="33%">
-</p>
-<p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="33%">
+    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall5.PNG" width="40%">
 </p>
 
 If you chose Custom Installation, install Qt Design Studio (this program allows you to create QML GUIs by drag and dropping), Qt 6.6.1 (the complete framework), Qt Creator (Qt's IDE) and CMake, Ninja and MinGW(Windows).
