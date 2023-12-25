@@ -170,15 +170,20 @@ Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, 
 Aborted (core dumped)
 ```
 
-You will have to type 
+You will have to type this every time you want to launch the program.
 
 ```
 export QT_QPA_PLATFORM=wayland
-./qtcreator
-Home/Qt/tools/QtCreator/bin/qtcreator
+/home/marcov/Qt/tools/QtCreator/bin/qtcreator
 ```
 
-And then Qt Creator will be able to run. I'm still finding a more permanent solution that allows me to launch it via the desktop icon
+A more permanent solution is to modify the .desktop file in ```/home/marcov/.local/share/applications``` and edit the ```org.qt-project.qtcreator.desktop```. Change the Exec line into this:
+
+```
+Exec=env QT_QPA_PLATFORM=wayland "/home/USER/Qt/Tools/QtCreator/bin/qtcreator" %F
+```
+
+Now Qt Creator will succesfully launch in RHEL.
 
 ## 2. First Project:
 
