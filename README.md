@@ -156,7 +156,7 @@ Then in the new window click on Environment and change theme to dark. Qt Creator
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall9.PNG" width="40%">
 </p>
 
-##### Troubleshooting on RHEL 9.3
+#### Troubleshooting on RHEL 9.3
 
 After the instalation on RHEL 9.3 if you try to run Qt Creator, it probably won't start and if you go to ```Home/Qt/tools/QtCreator/bin``` and start qtcreator by typing ```./qtcreator``` you might get this error:
 
