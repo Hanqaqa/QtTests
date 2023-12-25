@@ -158,7 +158,7 @@ Then in the new window click on Environment and change theme to dark. Qt Creator
 
 #### Troubleshooting on RHEL 9.3
 
-After the instalation on RHEL 9.3 if you try to run Qt Creator, it probably won't start and if you go to ```/home/USER/Qt/tools/QtCreator/bin/qtcreator``` and start qtcreator by typing ```./qtcreator``` you might get this error:
+After the instalation on RHEL 9.3 if you try to run Qt Creator, it probably won't start and if you go to ```/home/$USER/Qt/tools/QtCreator/bin/qtcreator``` and start qtcreator by typing ```./qtcreator``` you might get this error:
 
 ```
 Warning: Ignoring WAYLAND_DISPLAY on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
@@ -174,13 +174,13 @@ You will have to type this every time you want to launch the program.
 
 ```
 export QT_QPA_PLATFORM=wayland
-/home/USER/Qt/tools/QtCreator/bin/qtcreator
+/home/$USER/Qt/Tools/QtCreator/bin/qtcreator
 ```
 
-A more permanent solution is to modify the .desktop file in ```/home/USER/.local/share/applications``` and edit the ```org.qt-project.qtcreator.desktop```. Change the Exec line into this:
+A more permanent solution is to modify the .desktop file in ```/home/$USER/.local/share/applications``` and edit the ```org.qt-project.qtcreator.desktop```. Change the Exec line into this:
 
 ```
-Exec=env QT_QPA_PLATFORM=wayland "/home/USER/Qt/Tools/QtCreator/bin/qtcreator" %F
+Exec=env QT_QPA_PLATFORM=wayland "/home/$USER/Qt/Tools/QtCreator/bin/qtcreator" %F
 ```
 
 Now Qt Creator will succesfully launch in RHEL.
