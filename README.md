@@ -177,7 +177,7 @@ export QT_QPA_PLATFORM=wayland
 /home/USER/Qt/tools/QtCreator/bin/qtcreator
 ```
 
-A more permanent solution is to modify the .desktop file in ```/home/marcov/.local/share/applications``` and edit the ```org.qt-project.qtcreator.desktop```. Change the Exec line into this:
+A more permanent solution is to modify the .desktop file in ```/home/USER/.local/share/applications``` and edit the ```org.qt-project.qtcreator.desktop```. Change the Exec line into this:
 
 ```
 Exec=env QT_QPA_PLATFORM=wayland "/home/USER/Qt/Tools/QtCreator/bin/qtcreator" %F
