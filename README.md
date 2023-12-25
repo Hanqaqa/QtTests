@@ -72,8 +72,6 @@ Then right click on the downloaded .run file and Allow executing file as a progr
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtRedHatExecute.PNG" width="40%">
 </p>
 
-Close the window and double click the .run file to start the installation
-
 ## 2. Installation:
 
 The procedure is the same in all the OSs.
@@ -157,6 +155,30 @@ Then in the new window click on Environment and change theme to dark. Qt Creator
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall9.PNG" width="40%">
 </p>
+
+##### Troubleshooting on RHEL 9.3
+
+After the instalation on RHEL 9.3 if you try to run Qt Creator, it probably won't start and if you go to ```Home/Qt/tools/QtCreator/bin``` and start qtcreator by typing ```./qtcreator``` you might get this error:
+
+```
+Warning: Ignoring WAYLAND_DISPLAY on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vkkhrdisplay, vnc, wayland-egl, wayland, xcb.
+
+Aborted (core dumped)
+```
+
+You will have to type 
+
+```
+export QT_QPA_PLATFORM=wayland
+./qtcreator
+Home/Qt/tools/QtCreator/bin/qtcreator
+```
+
+And then Qt Creator will be able to run. I'm still finding a more permanent solution that allows me to launch it via the desktop icon
 
 ## 2. First Project:
 
