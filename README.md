@@ -1,9 +1,9 @@
-# Learning Qt from scratch for Windows and Linux
+<h1 align="center">Qt Beginner's guide</h1>
 
 > [!NOTE]  
 > This procedure has been tested as of January 2024 with Qt 6.6.1. Things might change in the future
 
-In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OS!
+In this tutorial we will go over how to install an Open Source instance of Qt, develop a simple aplication and ship it to different users with different OS!.
 
 This is an easy example on how to deploy an app as fast as possible. So the easiest and cleanest method will always be chosen.
 
@@ -13,6 +13,9 @@ I will provide the specific instructions for:
 - Red Hat Enterprise Linux 9.3.
 
 Whenever they are necessary. If the instructions are platform independent, the instructions will only be explained once.
+
+## Contents
+- ## 1. Pre installation in different OS:(#1. Pre installation in different OS:)
 
 ## 1. Pre installation in different OS:
 
