@@ -8,7 +8,11 @@
     - [Red Hat Enterprise Linux 9.3](#red-hat-enterprise-linux-93)
 - [2. Installation](#2-installation)
 - [3. First Project](#3-first-project)
+    - [Widgets Project](#widgets-project)
+    - [QML Project](#qml-project)
 - [4. Releasing your application to other PCs](#4-releasing-your-application-to-other-pcs)
+    - [Windows 10](#windows-10-1)
+    - [Linux](#linux)
 
 ## 0. Overview
 
@@ -200,6 +204,10 @@ Now Qt Creator will succesfully launch in RHEL.
 ## 3. First Project:
 
 TODO
+
+#### Widgets Project
+
+#### QML Project
 
 ## 4. Releasing your application to other PCs
 
