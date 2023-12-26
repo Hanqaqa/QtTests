@@ -1,4 +1,4 @@
-<h1 align="center">Qt Beginner's guide</h1>
+<h1 align="center">Unofficial Qt Beginner's guide</h1>
 
 ## Contents
 - [0. Overview](#0-overview)
