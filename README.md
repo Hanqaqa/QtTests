@@ -15,7 +15,7 @@ I will provide the specific instructions for:
 Whenever they are necessary. If the instructions are platform independent, the instructions will only be explained once.
 
 ## Contents
-- ## 1. Pre installation in different OS:(#1. Pre installation in different OS:)
+- 1. Pre installation in different OS: (#1. Pre installation in different OS:)
 
 ## 1. Pre installation in different OS:
 
