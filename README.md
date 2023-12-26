@@ -1,5 +1,17 @@
 <h1 align="center">Qt Beginner's guide</h1>
 
+## Contents
+- [0. Overview](#0-overview)
+- [1. Pre installation in different OS:](#1-pre-installation-in-different-os)
+    - [Windows 10](#windows-10)
+    - [Ubuntu 22.04](#ubuntu-2204)
+    - [Red Hat Enterprise Linux 9.3](#red-hat-enterprise-linux-93)
+- [2. Installation](#2-installation)
+- [3. First Project](#3-first-project)
+- [4. Releasing your application to other PCs](#4-releasing-your-application-to-other-pcs)
+
+## 0. Overview
+
 > [!NOTE]  
 > This procedure has been tested as of January 2024 with Qt 6.6.1. Things might change in the future
 
@@ -13,9 +25,6 @@ I will provide the specific instructions for:
 - Red Hat Enterprise Linux 9.3.
 
 Whenever they are necessary. If the instructions are platform independent, the instructions will only be explained once.
-
-## Contents
-- 1. Pre installation in different OS: (#1. Pre installation in different OS:)
 
 ## 1. Pre installation in different OS:
 
@@ -188,11 +197,11 @@ Exec=env QT_QPA_PLATFORM=wayland "/home/$USER/Qt/Tools/QtCreator/bin/qtcreator" 
 
 Now Qt Creator will succesfully launch in RHEL.
 
-## 2. First Project:
+## 3. First Project:
 
 TODO
 
-## 3. Releasing your application to other PCs
+## 4. Releasing your application to other PCs
 
 Once you have finished developing your application. It is time to "deploy the application". Which means, compiling it and putting into a folder with all the necessary files so other people with different PCs and OSs can run it without installing Qt Creator.
 
