@@ -217,7 +217,20 @@ Windows runs `.exe` files, Linux runs `rpm` files.  The easiest way to deploy Qt
 
 ### Windows 10
 
-[Qt's official documentation](https://doc.qt.io/qt-6/windows-deployment.html) indicates us how to do it
+[Qt's official documentation](https://doc.qt.io/qt-6/windows-deployment.html) indicates us how to do it.
+
+For widgets applications you have to move the generated .exe file into a new empty folder, and in the powershell, write the directory of that folder as the argument in the windeploy function:
+
+```
+C:\Qt\6.6.1\mingw_64\bin\windeployqt.exe C:\Qt\Examples\Qt-6.6.1\designer\build-calculatorform_mi-Desktop-MinSizeRel\calculatorform_mi.exe
+```
+
+For an application developed with QML. You have to add the ```--qmldir``` and the ```<path-to-app-qml-files>``` in your powershell
+
+```
+C:\Qt\6.6.1\mingw_64\bin\windeployqt.exe --qmldir PONERQMLDIR C:\Qt\Examples\Qt-6.61\designer\build-calculatorform_mi-Desktop-MinSizeRel\calculatorform_mi.exe
+```
+
 
 ### Linux
 
