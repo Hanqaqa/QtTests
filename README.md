@@ -89,6 +89,18 @@ Then right click on the downloaded .run file and Allow executing file as a progr
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtRedHatExecute.PNG" width="40%">
 </p>
 
+You can also just do 
+
+```
+chmod 777 qt-unified-linux-x64-4.6.1-online.run
+```
+
+And then
+
+```
+-/qt-unified-linux-x64-4.6.1-online.run
+```
+
 ### Arch Linux
 
 Not named in [the official qt6 docs](https://doc.qt.io/qt-6/linux.html). But on a "normal" Arch Linux installation you should already have the Development Tools. The missing packages are the xcb ones. So a simple way of downloading every single package that begins with xcb is:
