@@ -27,6 +27,7 @@ I will provide the specific instructions for:
 - Windows 10
 - Ubuntu 22.04
 - Red Hat Enterprise Linux 9.3.
+- Arch Linux
 
 Whenever they are necessary. If the instructions are platform independent, the instructions will only be explained once.
 
@@ -87,6 +88,15 @@ Then right click on the downloaded .run file and Allow executing file as a progr
 <p align="center">
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtRedHatExecute.PNG" width="40%">
 </p>
+
+### Arch Linux
+
+Not named in [the official qt6 docs](https://doc.qt.io/qt-6/linux.html). But the missing packages are the xcb ones. So a simple way of downloading every single package that begins with xcb is:
+
+```
+sudo pacman -S $(pacman -Ssq xcb)
+TODO DO i need more libraries?s 
+```
 
 ## 2. Installation:
 
