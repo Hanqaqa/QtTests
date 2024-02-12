@@ -81,7 +81,6 @@ I also had to install these dependencies:
 
 ```
 sudo dnf install xcb*
-TODO Me decia que estaban todas instaladsa!!!!!!!!!
 ```
 
 Then right click on the downloaded .run file and Allow executing file as a program, or give executing permissions to the installer via the terminal: 
@@ -189,9 +188,9 @@ Then in the new window click on Environment and change theme to dark. Qt Creator
     <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtInstall9.PNG" width="40%">
 </p>
 
-#### Troubleshooting on RHEL 9.3
+#### Troubleshooting
 
-After the instalation on RHEL 9.3 if you try to run Qt Creator, it probably won't start and if you go to ```/home/$USER/Qt/tools/QtCreator/bin/qtcreator``` and start qtcreator by typing ```./qtcreator``` you might get this error:
+After the instalation in some distros. If you try to run Qt Creator, it probably won't start and if you go to ```/home/$USER/Qt/tools/QtCreator/bin/qtcreator``` and start qtcreator by typing ```./qtcreator``` you might get this error:
 
 ```
 Warning: Ignoring WAYLAND_DISPLAY on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
