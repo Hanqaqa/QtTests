@@ -91,11 +91,11 @@ Then right click on the downloaded .run file and Allow executing file as a progr
 
 ### Arch Linux
 
-Not named in [the official qt6 docs](https://doc.qt.io/qt-6/linux.html). But the missing packages are the xcb ones. So a simple way of downloading every single package that begins with xcb is:
+Not named in [the official qt6 docs](https://doc.qt.io/qt-6/linux.html). But on a "normal" Arch Linux installation you should already have the Development Tools. The missing packages are the xcb ones. So a simple way of downloading every single package that begins with xcb is:
 
 ```
 sudo pacman -S $(pacman -Ssq xcb)
-TODO DO i need more libraries?s 
+sudo pacman -Sy base-devel  # Optional 
 ```
 
 ## 2. Installation:
