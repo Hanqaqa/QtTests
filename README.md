@@ -83,13 +83,7 @@ I also had to install these dependencies:
 sudo dnf install xcb*
 ```
 
-Then right click on the downloaded .run file and Allow executing file as a program:
-
-<p align="center">
-    <img src="https://github.com/Hanqaqa/QtTests/blob/master/Assets/Screens/QtRedHatExecute.PNG" width="40%">
-</p>
-
-You can also just do 
+Then right click on the downloaded .run file and Allow executing file as a program, or give executing permissions to the installer via the terminal: 
 
 ```
 chmod 777 qt-unified-linux-x64-4.6.1-online.run
